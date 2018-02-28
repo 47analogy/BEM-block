@@ -1,0 +1,36 @@
+.Block {
+  background-color: grey;
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.Block__header {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.Block__description-content {
+  color: white;
+}
+
+.Block--hidden {
+  display: none;
+}
+
+.Block--red {
+  background-color: red;
+}
+
+.Block--green {
+  background-color: green;
+}
+
+.Block--blue {
+  background-color: blue;
+}
+
+.Block--description-black .Block__description-content {
+  color: black;
+}
